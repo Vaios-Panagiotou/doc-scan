@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'ai/smollm2:135M-Q4_K_M'
+          default: 'amazon/cloudwatch-agent:latest'
 
 # env:
 #   REGISTRY: ghcr.io
