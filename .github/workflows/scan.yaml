@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'flink:scala_2.12-java21'
+          default: 'redhat/granite-3-2b-instruct:1.0-1731549069'
 
 # env:
 #   REGISTRY: ghcr.io
